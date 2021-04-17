@@ -31,7 +31,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Raleway", sans-serif;
+    /* font-family: "Raleway", sans-serif; */
+    font-family: "Poppins", sans-serif;
+    color: #111;
 }
 
 
@@ -308,10 +310,10 @@ h6 {
 .hero {
     width: 100%;
     height: 100vh;
-    position: relative;
     background: url("../img/hero-img.png") top center;
     background-size: cover;
     position: relative;
+    padding-top: 80px;
 }
 
 .hero:before {
@@ -322,10 +324,6 @@ h6 {
     top: 0;
     left: 0;
     right: 0;
-}
-
-.hero {
-    padding-top: 80px;
 }
 
 .hero h1 {
@@ -401,6 +399,27 @@ h6 {
         font-size: 18px;
         line-height: 24px;
     }
+}
+
+
+/*--------------------------------------------------------------
+. Main
+--------------------------------------------------------------*/
+
+.main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding-top: 80px;
+}
+
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+
+#about {
+    padding-top: 170px;
 }
 
 
